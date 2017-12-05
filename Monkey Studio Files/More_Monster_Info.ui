@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>More_Monster_Info</class>
+ <widget class="QDialog" name="More_Monster_Info">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>More Monster Info</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(255, 55, 0, 255);</string>
+  </property>
+  <widget class="QPushButton" name="More_Monster_Info_Saving_Throw">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>146</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Saving Throws</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Add_Monster_Finish_Add_Monster">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>446</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Add Monster</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Main_Menu_Label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>16</y>
+     <width>400</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;%Monster Name%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="More_Monster_Info_Hit_Points">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>221</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>146</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Race&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>171</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Size&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>246</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Challenge&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Abilities_Foreign_Key">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>26</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="More_Monster_Info_Lore">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>196</y>
+     <width>241</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="More_Monster_Info_Armour_Class">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>196</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>196</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Armour Class&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>196</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lore&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="More_Monster_Info_Populate">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>171</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Populate Foreign Keys</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Speed_Foreign_Key">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>6</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="More_Monster_Info_Name">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>121</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Saving_Throws_Foreign_Key">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>46</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="More_Monster_Info_Speed">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>96</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Speed</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>121</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Name&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>221</y>
+     <width>45</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hit Points&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="More_Monster_Info_Challenge">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>246</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="More_Monster_Info_Ability_Score">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>121</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Ability Scores</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="More_Monster_Info_Race">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>145</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="More_Monster_Info_Size">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>115</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,19 @@
+<ui version="4.0" >
+        <class>More_Monster_Info_Ability_Scores</class>
+        <widget class="QDialog" name="More_Monster_Info_Ability_Scores" >
+        <property name="geometry" >
+        <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>600</width>
+        <height>480</height>
+    </rect>
+    </property>
+    <property name="windowTitle" >
+    <string>More Monster Info Abilty Scores</string>
+    </property>
+    $Central Widget$
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Menu</class>
+ <widget class="QDialog" name="Main_Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Main Menu</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(255, 55, 0, 255);</string>
+  </property>
+  <widget class="QLabel" name="Main_Menu_Label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>20</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Main Menu&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ItemsEnchantments_Button">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>250</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Items/Enchantments</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Monster_Manual_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Monster Manual</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Character_Sheets_Button">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>250</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Character Sheets</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Monster_Manual_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_Menu</receiver>
+   <slot>Monster_Manual_Link()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-69</x>
+     <y>287</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Character_Sheets_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_Menu</receiver>
+   <slot>Character_Sheet_Link()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>313</x>
+     <y>274</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>503</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Monster_Manual_Link()</slot>
+  <slot>Close_Window()</slot>
+  <slot>Character_Sheet_Link()</slot>
+  <slot>Destroy()</slot>
+ </slots>
+</ui>

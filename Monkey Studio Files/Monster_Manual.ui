@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Monster_Manual</class>
+ <widget class="QDialog" name="Monster_Manual">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Monster Manual</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 55, 0);</string>
+  </property>
+  <widget class="QLabel" name="Monster_Manual_Label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>300</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Monster Manual&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="View_Monsters_Button">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>180</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>View Monsters</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Add_Monster_Button">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>180</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Add Monster</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Back_Button">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>440</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Add_Monster_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Monster_Manual</receiver>
+   <slot>Add_Monster_Link()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>424</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>View_Monsters_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Monster_Manual</receiver>
+   <slot>View_Monster_Link()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>193</x>
+     <y>217</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>988</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Back_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Monster_Manual</receiver>
+   <slot>Close_Window()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>564</x>
+     <y>452</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>982</x>
+     <y>432</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Add_Monster_Link()</slot>
+  <slot>View_Monster_Link()</slot>
+  <slot>Close_Window()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,63 @@
+<!DOCTYPE XUPProject>
+<!--
+###########################################################################################
+##      Created using Monkey Studio IDE v1.9.0.4 (1.9.0.4)
+##
+##  Author    : $Authors$
+##  Project   : Dungeons_And_Databases
+##  FileName  : Dungeons_And_Databases.xpythonqt
+##  Date      : 2017-09-13T10:06:59
+##  License   : $License$
+##  Comment   : $Comment$
+##  Home Page : $Home Page$
+##
+##  This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+##  WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+##
+###########################################################################################
+-->
+<project version="1.1.0" name="Dungeons_And_Databases">
+    <variable name="XUP.MAIN_FILE">
+        <value>main.py</value>
+    </variable>
+    <variable name="FORMS">
+        <file>mainwindow.ui</file>
+        <file>Monster_Manual.ui</file>
+        <file>View_Monsters.ui</file>
+        <file>Main_Menu.ui</file>
+        <file>Add_Monster.ui</file>
+        <file>Add_Monster_Speed_Window.ui</file>
+        <file>Add_Monster_Ability_Scores.ui</file>
+        <file>Add_Monster_Saving_Throws.ui</file>
+        <file>Character_Sheets.ui</file>
+        <file>View_Players.ui</file>
+        <file>Info_Monster_Ability_Scores.ui</file>
+        <file>Info_Monster_Speed.ui</file>
+        <file>Info_Monster_Saving_Throws.ui</file>
+        <file>Add_Players.ui</file>
+        <file>Add_Player_Ability_Scores.ui</file>
+        <file>Add_Player_Saving_Throws.ui</file>
+        <file>More_Monster_Info.ui</file>
+    </variable>
+    <variable name="PYTHON_FILES">
+        <file>main.py</file>
+        <file>mainwindow.py</file>
+        <file>Monster_Manual.py</file>
+        <file>View_Monsters.py</file>
+        <file>Main_Menu.py</file>
+        <file>Add_Monster.py</file>
+        <file>Add_Monster_Speed_Window.py</file>
+        <file>Add_Monster_Ability_Scores.py</file>
+        <file>Add_Monster_Saving_Throws.py</file>
+        <file>Character_Sheets.py</file>
+        <file>View_Players.py</file>
+        <file>Info_Monster_Ability_Scores.py</file>
+        <file>Info_Monster_Speed.py</file>
+        <file>Info_Monster_Saving_Throws.py</file>
+        <file>Add_Players.py</file>
+        <file>Add_Player_Ability_Scores.py</file>
+        <file>Add_Player_Saving_Throws.py</file>
+        <file>More_Monster_Info.py</file>
+        <file>Validation.py</file>
+    </variable>
+</project>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Character_Sheets</class>
+ <widget class="QDialog" name="Character_Sheets">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Character Sheets</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(255, 55, 0, 255);</string>
+  </property>
+  <widget class="QPushButton" name="View_Monsters_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>View Players</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Monster_Manual_Label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>300</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Character Sheets&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Add_Monster_Button">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>180</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Add Players</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Back_Button">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>440</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Add_Monster_Button_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>180</y>
+     <width>160</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(140, 140, 140);</string>
+   </property>
+   <property name="text">
+    <string>Compare Players</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Back_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Character_Sheets</receiver>
+   <slot>Close_Window()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>563</x>
+     <y>451</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>782</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>View_Monsters_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Character_Sheets</receiver>
+   <slot>View_Players_Link()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>118</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-169</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Add_Monster_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>Character_Sheets</receiver>
+   <slot>Add_Players_Link()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Close_Window()</slot>
+  <slot>View_Players_Link()</slot>
+  <slot>Add_Players_Link()</slot>
+  <slot>Compare_Players_Link()</slot>
+ </slots>
+</ui>
